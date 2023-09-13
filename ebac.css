@@ -1,0 +1,157 @@
+    * {
+        box-sizing: border-box;
+        margin: 100;
+        padding: 100;
+        justify-content: space-between;
+    }
+
+    body > header {
+        background-color:#a8e6ce;
+        color: black;
+        padding: 8px 0;
+        align-items: center;
+        margin-left: 16px 0;
+    }
+
+    #sports{
+        background-color:#dcedc2;
+    }
+
+    #sports .article a{
+        background-color: #d0f39c;
+        font-weight: bold;
+    }
+
+    #economy {
+        background-color:#fedd578c;
+    }
+
+    #economy .article a{
+        background-color: #fedd57b7;
+        font-weight: bold;
+    }
+
+    #moda {
+        background-color: #ff8c94;
+    }
+
+    #moda .article a{
+        background-color: #ff757e;
+        font-weight: bold;
+    }
+
+    #tech {
+        background-color: #7ec3df;
+    }
+
+    #tech .article a{
+        background-color: #4fb0d6;
+        font-weight: bold;
+    }
+
+    time {
+        color: rgba(0, 0, 0, 0.493);
+    }
+
+    h1{
+        text-align: center;
+        padding: 20px;
+        padding-top: 10px;
+    }
+
+    header .container {
+        display: inline;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .article a {
+        background-color: #a8e6ce;
+        color: rgb(22, 22, 22);
+        margin-top: 8px;
+        padding: 8px 0;
+        display: inline-block; 
+        text-decoration: none;
+    }
+
+    .article a:hover{
+        text-decoration: underline;
+    }
+
+    body{
+        text-align: justify;
+        text-align: left;
+    }
+
+    section h2{
+        font-size: 32px; 
+    }
+
+    section h3{
+        font-style: italic; font-weight: bold
+        ;
+    }
+
+    .articles article p{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .articles article a{
+        font-family: 'Times New Roman', Times, serif
+    }
+
+    header ul{
+        display:flex;
+        justify-content: space-around;
+    }
+
+    header li {
+        display: inline;
+        align-items: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    header li a {
+        color: black; 
+        text-decoration: none;
+    }
+
+    header li a:hover {
+        text-decoration: underline;
+    }
+
+    .container {
+        width: 1366px;
+        margin: 0 auto;
+    }
+
+    .article {
+        display: inline-block;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+    .article img {
+        height: 180px;
+    }
+
+    .article {
+        width: 24%;
+    }
+
+    section {
+        padding: 16px 0;
+    }
+
+    section h2,
+    .articles article {
+        margin-bottom: 16px;
+        justify-content: space-between;
+    }
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
